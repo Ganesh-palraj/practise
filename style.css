@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    height:100vh;
+    border:2px solid black;
+    padding:5px;
+    color: rgb(134, 62, 200);
+    text-transform:uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    border:border-box;
+}
+header{
+    flex-basis: 100%;
+    background-color: rgb(81, 81, 224);
+    height: 10%;
+    text-align: center;
+    color: bisque;
+}
+.content-left{
+     flex-direction: column;
+     flex-basis: 30%;
+     height: 80%;
+     text-align: center;
+     width: 100%;
+}
+aside{
+    background-color: cadetblue ;
+    height: 50%;
+}
+nav{
+    background-color: rgb(136, 236, 44) ;
+    height: 50%;
+}
+main{
+    flex-basis: 70%;
+    background-color: rgb(148, 237, 88);
+    height: 80%;
+}
+footer{
+    flex-basis: 100%;
+    background-color: rgb(228, 61, 61);
+}
